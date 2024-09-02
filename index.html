@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Générateur</title>
+    <script src="script.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-cyan-500">
+    <div class="max-w-96 mx-auto border mt-5 border-b-8 border-e-8">
+        <div class="mt-2">
+            <h1 class="text-center font-extrabold text-2xl">Générateur de mot de passe</h1>
+        </div>
+        <div class="w-60 h-7 mx-auto border my-5">
+            <p class="text-white text-center font-semibold" id="mdp"></p>
+        </div>
+        <div class="flex justify-center mb-5">
+            <button class="text-center border bg-cyan-600 hover:bg-cyan-800 rounded px-2" onclick="generer()">Générer un mot de passe</button>
+        </div>
+    </div>
+</body>
+</html>
